@@ -4,7 +4,7 @@
     contract localvariables{
 
         function cool() public pure returns(uint){
-            int a;
+            int a; //local variable
         } 
     }
 
