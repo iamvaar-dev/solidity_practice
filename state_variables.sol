@@ -3,12 +3,14 @@
 
     contract statevariable{
 
-     //First way to initialize state variables
+     //First way to change state variables: Initializing the variable at the declaration.
+
        uint8 public test = 1; //state variable 1
 
 
 
-       //Second way to initialize state variables
+       //Second way to change state variables: Using contract constructor.
+
        uint8 public test1; //state variable 2
        constructor() {
         test1 = 2;
@@ -16,9 +18,10 @@
         
 
 
-        //Third way to initialize state variables
+        //Third way to change state variables: Using a setter function.
+
         uint8 public test2; //state variable 3
-        function allot() public {
+        function setter() public {
             test2 = 3;
         }
     }
