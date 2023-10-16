@@ -3,14 +3,19 @@ pragma solidity >=0.7.0 <0.9.0;
 
 contract sumofn {
 
-function ForLoop() public pure returns(uint8){
+function dowhileloop() public pure returns(uint8){
 
 
 uint8 count;
 uint8 sum;
-for(count = 0; count<10; count++){
-    sum=sum+count;
-}
+
+do{
+
+sum+=count;
+count++;
+
+}while(count<10);
+
 
 return sum;
 }
