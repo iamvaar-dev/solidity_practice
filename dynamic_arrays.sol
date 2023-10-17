@@ -30,5 +30,5 @@ Arrays comes under reference data type.
 For returning reference data types we should use memory keyword in returns().
 We should use array.push() to add an element in a dynamic array from the index 0 and the index number will be keep on increasing by 1.
 we can remove the top most element from the array by using array.pop().
-
+we can find the length of the array using array.length.
 */
