@@ -18,6 +18,10 @@ function ra() public view returns(uint8[] memory){
     return arr;
 }
 
+function arrayLength() public view returns(uint256){
+return arr.length;
+}
+
 }
 
 /*
