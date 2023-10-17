@@ -22,4 +22,5 @@ function wholedata() public view returns(uint8[5] memory){
 Note:
 Arrays comes under reference data type.
 For returning reference data types we should use memory keyword in returns().
+btw memory keyword should be used only in the function level, we can't use them in contract level.
 */
