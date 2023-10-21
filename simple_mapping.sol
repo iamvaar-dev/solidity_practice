@@ -24,4 +24,10 @@ Note:
 
 3. Mapping in solidity is used to connect a unique Ethereum address to a corresponding value type.
 
+4. Mapping and array's syntax may look similar but they aren't same... they are completely different.
+
+5.Mapping stores data in non-contiguous fashion while array stores data in a contiguous fashion. 
+
+6.Mappings are not iterable while arrays are iterable.
+
 */
